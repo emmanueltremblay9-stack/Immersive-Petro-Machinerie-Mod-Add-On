@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,valid=false": {
+      "model": "immersive_petro_machinery:block/docking_controller"
+    },
+    "facing=east,valid=false": {
+      "model": "immersive_petro_machinery:block/docking_controller",
+      "y": 90
+    },
+    "facing=south,valid=false": {
+      "model": "immersive_petro_machinery:block/docking_controller",
+      "y": 180
+    },
+    "facing=west,valid=false": {
+      "model": "immersive_petro_machinery:block/docking_controller",
+      "y": 270
+    },
+    "facing=north,valid=true": {
+      "model": "immersive_petro_machinery:block/docking_controller"
+    },
+    "facing=east,valid=true": {
+      "model": "immersive_petro_machinery:block/docking_controller",
+      "y": 90
+    },
+    "facing=south,valid=true": {
+      "model": "immersive_petro_machinery:block/docking_controller",
+      "y": 180
+    },
+    "facing=west,valid=true": {
+      "model": "immersive_petro_machinery:block/docking_controller",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "f": {
+      "item": "immersiveengineering:steel_fence"
+    },
+    "i": {
+      "tag": "c:ingots/steel"
+    },
+    "p": {
+      "item": "immersiveengineering:fluid_pipe"
+    },
+    "s": {
+      "item": "immersiveengineering:steel_scaffolding_standard"
+    }
+  },
+  "pattern": [
+    " i ",
+    "pfp",
+    " s "
+  ],
+  "result": {
+    "count": 4,
+    "id": "immersive_petro_machinery:docking_pipe"
+  }
+}

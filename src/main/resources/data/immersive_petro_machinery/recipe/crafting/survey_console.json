@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "d": {
+      "item": "immersiveengineering:sample_drill"
+    },
+    "e": {
+      "item": "immersiveengineering:electron_tube"
+    },
+    "p": {
+      "tag": "c:plates/steel"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    },
+    "s": {
+      "item": "immersivepetroleum:seismic_survey"
+    },
+    "u": {
+      "item": "immersiveengineering:rs_engineering"
+    }
+  },
+  "pattern": [
+    "ese",
+    "rur",
+    "pdp"
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersive_petro_machinery:survey_console"
+  }
+}

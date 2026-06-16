@@ -1,0 +1,90 @@
+plugins {
+    id "java-library"
+    id "net.neoforged.moddev" version "${moddevgradle_version}"
+}
+
+version = mod_version
+group = mod_group_id
+
+base {
+    archivesName = mod_id
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        name = "BlameJared"
+        url = "https://maven.blamejared.com"
+    }
+    maven {
+        name = "Conczin"
+        url = "https://maven.conczin.net/Artifacts"
+    }
+    maven {
+        name = "Shedaniel"
+        url = "https://maven.shedaniel.me"
+    }
+    maven {
+        name = "Modrinth"
+        url = "https://api.modrinth.com/maven"
+    }
+    flatDir {
+        dirs "libs"
+    }
+}
+
+neoForge {
+    version = neoforge_version
+
+    runs {
+        configureEach {
+            logLevel = org.slf4j.event.Level.INFO
+        }
+
+        client {
+            client()
+        }
+
+        server {
+            server()
+            programArgument "--nogui"
+        }
+
+        gameTestServer {
+            type = "gameTestServer"
+            systemProperty "neoforge.enabledGameTestNamespaces", mod_id
+        }
+    }
+
+    mods {
+        immersive_petro_machinery {
+            sourceSet sourceSets.main
+        }
+    }
+}
+
+dependencies {
+    implementation "blusunrize.immersiveengineering:ImmersiveEngineering:${immersive_engineering_version}"
+    implementation "maven.modrinth:immersivepetroleum:${immersive_petroleum_version}"
+    implementation "net.conczin:immersive_aircraft:${immersive_aircraft_version}"
+    implementation "net.conczin:immersive_machinery:${immersive_machinery_version}"
+    implementation "malte0811:DualCodecs:${dual_codecs_version}"
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = "UTF-8"
+    options.release = 21
+}
+
+processResources {
+    duplicatesStrategy = DuplicatesStrategy.FAIL
+}

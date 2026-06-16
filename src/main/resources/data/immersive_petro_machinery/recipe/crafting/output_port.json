@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "immersiveengineering:component_iron"
+    },
+    "d": {
+      "item": "immersive_petro_machinery:docking_frame"
+    },
+    "h": {
+      "item": "minecraft:hopper"
+    },
+    "l": {
+      "item": "immersiveengineering:light_engineering"
+    },
+    "p": {
+      "tag": "c:plates/steel"
+    }
+  },
+  "pattern": [
+    "php",
+    "cdc",
+    "plp"
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersive_petro_machinery:output_port"
+  }
+}

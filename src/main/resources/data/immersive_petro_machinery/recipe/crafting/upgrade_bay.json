@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "immersiveengineering:component_steel"
+    },
+    "d": {
+      "item": "immersive_petro_machinery:docking_frame"
+    },
+    "l": {
+      "item": "immersiveengineering:light_engineering"
+    },
+    "p": {
+      "tag": "c:plates/steel"
+    },
+    "r": {
+      "item": "immersiveengineering:wirecoil_redstone"
+    },
+    "w": {
+      "tag": "immersiveengineering:treated_wood"
+    }
+  },
+  "pattern": [
+    "wcw",
+    "rlr",
+    "pdp"
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersive_petro_machinery:upgrade_bay"
+  }
+}

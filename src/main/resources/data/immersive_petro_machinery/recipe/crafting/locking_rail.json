@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "f": {
+      "item": "immersiveengineering:steel_fence"
+    },
+    "i": {
+      "tag": "c:ingots/steel"
+    },
+    "p": {
+      "tag": "c:plates/steel"
+    },
+    "r": {
+      "item": "immersiveengineering:wirecoil_redstone"
+    }
+  },
+  "pattern": [
+    "iri",
+    "pfp",
+    "iri"
+  ],
+  "result": {
+    "count": 6,
+    "id": "immersive_petro_machinery:locking_rail"
+  }
+}

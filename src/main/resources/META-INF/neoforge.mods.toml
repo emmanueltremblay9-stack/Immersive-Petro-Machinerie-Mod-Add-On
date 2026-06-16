@@ -1,0 +1,56 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+license = "All Rights Reserved"
+issueTrackerURL = "https://github.com/"
+
+[[mods]]
+modId = "immersive_petro_machinery"
+version = "0.1.0"
+displayName = "Immersive Petro-Machinery"
+authors = "Emman"
+description = '''
+An unofficial compatibility addon concept connecting Immersive Machinery,
+Immersive Petroleum, and Immersive Engineering.
+'''
+
+[[dependencies.immersive_petro_machinery]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.immersive_petro_machinery]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.164,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.immersive_petro_machinery]]
+modId = "immersiveengineering"
+type = "required"
+versionRange = "[12.4.2-194,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.immersive_petro_machinery]]
+modId = "immersivepetroleum"
+type = "required"
+versionRange = "[4.4.1-37,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.immersive_petro_machinery]]
+modId = "immersive_aircraft"
+type = "required"
+versionRange = "[1.2.2,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.immersive_petro_machinery]]
+modId = "immersive_machinery"
+type = "required"
+versionRange = "[0.2.0,)"
+ordering = "AFTER"
+side = "BOTH"

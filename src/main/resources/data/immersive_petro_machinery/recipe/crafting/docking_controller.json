@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "immersiveengineering:component_steel"
+    },
+    "e": {
+      "item": "immersiveengineering:component_electronic_adv"
+    },
+    "h": {
+      "item": "immersiveengineering:heavy_engineering"
+    },
+    "l": {
+      "item": "immersiveengineering:light_engineering"
+    },
+    "r": {
+      "item": "immersiveengineering:wirecoil_redstone"
+    },
+    "s": {
+      "item": "immersiveengineering:rs_engineering"
+    }
+  },
+  "pattern": [
+    "cec",
+    "rsr",
+    "hlh"
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersive_petro_machinery:docking_controller"
+  }
+}

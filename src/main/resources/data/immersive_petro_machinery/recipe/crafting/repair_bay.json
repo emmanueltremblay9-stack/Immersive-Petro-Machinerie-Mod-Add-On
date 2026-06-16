@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:anvil"
+    },
+    "c": {
+      "item": "immersiveengineering:component_steel"
+    },
+    "h": {
+      "item": "immersiveengineering:heavy_engineering"
+    },
+    "i": {
+      "tag": "c:ingots/steel"
+    },
+    "p": {
+      "tag": "c:plates/steel"
+    }
+  },
+  "pattern": [
+    "pap",
+    "ihi",
+    "pcp"
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersive_petro_machinery:repair_bay"
+  }
+}

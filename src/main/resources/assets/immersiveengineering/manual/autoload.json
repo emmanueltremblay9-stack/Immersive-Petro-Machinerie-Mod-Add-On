@@ -1,0 +1,9 @@
+{
+  "autoload_priority": 3,
+  "immersive_petro_machinery:petro_machinery": {
+    "category_weight": 105,
+    "entry_list": [
+      "immersive_petro_machinery:docking_platform"
+    ]
+  }
+}

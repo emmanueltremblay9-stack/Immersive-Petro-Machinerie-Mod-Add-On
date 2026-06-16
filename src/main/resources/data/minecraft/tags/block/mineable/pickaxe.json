@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "immersive_petro_machinery:docking_controller",
+    "immersive_petro_machinery:docking_frame",
+    "immersive_petro_machinery:locking_rail",
+    "immersive_petro_machinery:fuel_port",
+    "immersive_petro_machinery:lubricant_port",
+    "immersive_petro_machinery:output_port",
+    "immersive_petro_machinery:repair_bay",
+    "immersive_petro_machinery:upgrade_bay",
+    "immersive_petro_machinery:survey_console",
+    "immersive_petro_machinery:docking_pipe",
+    "immersive_petro_machinery:docking_gantry"
+  ]
+}

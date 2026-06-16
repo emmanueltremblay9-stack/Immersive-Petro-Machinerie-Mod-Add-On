@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "immersiveengineering:component_steel"
+    },
+    "e": {
+      "item": "immersiveengineering:electron_tube"
+    },
+    "p": {
+      "tag": "c:plates/steel"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    },
+    "s": {
+      "item": "immersiveengineering:sample_drill"
+    }
+  },
+  "pattern": [
+    "pep",
+    "rsr",
+    "pcp"
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersive_petro_machinery:core_sampling_upgrade"
+  }
+}

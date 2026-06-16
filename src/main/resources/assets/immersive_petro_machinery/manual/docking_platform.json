@@ -1,0 +1,67 @@
+{
+  "platform": {
+    "type": "multiblock",
+    "name": "immersive_petro_machinery:multiblocks/docking_platform"
+  },
+  "controller": {
+    "type": "item_display",
+    "id": {
+      "id": "immersive_petro_machinery:docking_controller"
+    }
+  },
+  "structural_blocks": {
+    "type": "item_display",
+    "items": [
+      {
+        "id": "immersiveengineering:steel_scaffolding_standard"
+      },
+      {
+        "id": "immersiveengineering:heavy_engineering"
+      },
+      {
+        "id": "immersiveengineering:light_engineering"
+      },
+      {
+        "id": "immersiveengineering:rs_engineering"
+      },
+      {
+        "id": "immersiveengineering:sheetmetal_steel"
+      },
+      {
+        "id": "immersiveengineering:fluid_pipe"
+      },
+      {
+        "id": "immersiveengineering:fluid_pump"
+      },
+      {
+        "id": "immersiveengineering:steel_fence"
+      },
+      {
+        "id": "immersive_petro_machinery:locking_rail"
+      }
+    ]
+  },
+  "functional_blocks": {
+    "type": "item_display",
+    "items": [
+      {
+        "id": "immersive_petro_machinery:fuel_port"
+      },
+      {
+        "id": "immersive_petro_machinery:lubricant_port"
+      },
+      {
+        "id": "immersive_petro_machinery:output_port"
+      },
+      {
+        "id": "immersive_petro_machinery:repair_bay"
+      },
+      {
+        "id": "immersive_petro_machinery:upgrade_bay"
+      },
+      {
+        "id": "immersive_petro_machinery:survey_console"
+      }
+    ]
+  }
+}

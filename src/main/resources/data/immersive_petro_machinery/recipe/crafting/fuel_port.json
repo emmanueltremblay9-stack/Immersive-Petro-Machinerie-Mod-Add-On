@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "immersivepetroleum:bitumen"
+    },
+    "c": {
+      "item": "immersiveengineering:component_iron"
+    },
+    "d": {
+      "item": "immersive_petro_machinery:docking_frame"
+    },
+    "f": {
+      "item": "immersiveengineering:fluid_pump"
+    },
+    "p": {
+      "item": "immersiveengineering:fluid_pipe"
+    }
+  },
+  "pattern": [
+    "pbp",
+    "fcf",
+    "pdp"
+  ],
+  "result": {
+    "count": 1,
+    "id": "immersive_petro_machinery:fuel_port"
+  }
+}
