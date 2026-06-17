@@ -22,6 +22,11 @@ Project constants:
 
 - Do not copy code or assets from Immersive Petroleum, Immersive Machinery,
   Immersive Engineering, or Immersive Aircraft.
+- Immersive Machinery has a documented conditional permission summary in
+  `docs/external-references.md`. That summary allows runtime dependencies and
+  references, and may allow GPLv3 reuse or attributed reference/partial asset
+  use, but only after the implementation gates in that document are satisfied.
+  Until then, do not copy Immersive Machinery code or assets into the repo.
 - Do not invent registry IDs.
 - Do not implement mixins unless the task explicitly allows it.
 - Do not start Phase 8 unless the user explicitly approves Phase 8 work.
@@ -85,6 +90,23 @@ $env:JAVA_HOME = "C:\Path\To\Java21" # JDK root, not the bin folder
 $env:PATH = "$env:JAVA_HOME\bin;$env:PATH"
 .\gradlew.bat build
 ```
+
+## Codex Runtime Permissions
+
+Always follow the active Codex runtime permission profile from the current
+session's environment and developer instructions.
+
+- If the session has `danger-full-access`, network access enabled, and approval
+  policy `never`, run required commands directly and do not pass
+  `sandbox_permissions` or request escalation.
+- If the session has a restricted filesystem, disabled network, or an approval
+  policy that permits escalation, follow that active profile instead.
+- Network access does not grant permission to bypass authentication on private
+  third-party pages. Do not extract browser cookies, tokens, or credentials to
+  read private CurseForge, GitHub, Notion, or other authenticated content.
+- If authenticated content cannot be accessed through an approved connector,
+  authenticated browser session, or user-provided excerpt, record the review as
+  blocked and avoid inventing permissions, requirements, or decisions.
 
 ## Dependency Stack
 
